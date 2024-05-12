@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{
+    font-family: "Permanent Marker", cursive;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.navbar ul{
+    display: flex;
+    height: 100px;
+    
+
+}
+
+header{
+    height: 100vh;
+}
+
+
+.navbar ul li{
+    margin: 20px 30px;
+}
+
+.navbar{
+    background-color: rgb(224, 220, 220);
+    
+}
+
+.navbar ul li a{
+    color:black;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+
+.navbar ul li a:hover{
+    border-bottom: 2px solid orange;
+}
+
+
+.navbar ul li #btn{
+    background-color: orange;
+    border-radius: 30px;
+    color: white;
+    padding: 3px 5px;
+}
+
+
+header .content{
+    height:70% ;
+  
+}
+
+
+.content img .fo{
+    width: 400px;
+    overflow: hidden;
+    margin-left: 100px;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.content h1{
+    color: black;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+
+.content img #kat{
+    margin-top: 100px;
+}
+
+
+.content p{
+    margin: 20px 0px;
+    color:rgb(123, 123, 255);
+}
+
+.content a{
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+
+
+header .lista{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 100px;
+}
+
+
+header .lista img{
+    width: 70px;
+}
+
+
+header .lista li p{
+    color:orange;
+    font-size: 20px;
+}
+
+
+header .lista li h4{
+    letter-spacing: 2px;
+}
+
+
+
+header .learn{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+
+header .learn img{
+    width: 500px;
+}
+
+
+header .learn .rigg{
+    margin-top: 100px;
+}
+
+
+
+header .learn .rigg h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+header .learn .rigg span{
+    color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+
+header .learn .rigg #sig{
+    background-color: blue;
+    color: white;
+    padding: 5px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+
+
+header .learn .rigg #up{
+    background-color:orange;
+    color: white;
+    padding: 5px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 50px;
+
+}
+
+
+header .learn .rigg button{
+    margin-top: 40px;
+}
+
+
+.students{
+    margin: 40px  150px;
+
+}
+
+
+.students h1{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.students ul img{
+    width: 200px;
+}
+
+
+.students ul{
+    display: flex;
+}
+
+
+
